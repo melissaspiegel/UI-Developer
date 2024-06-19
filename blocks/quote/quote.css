@@ -1,0 +1,28 @@
+.quote blockquote{
+    position: relative;
+    padding: 1rem;
+    margin: 1rem -.75rem 0;
+    border: solid #dee2e6;
+    background-color: #f2f3f5;
+    border-width: 1px 0 0;
+}
+
+.quote blockquote:before{
+    content: '\201C';
+    position: absolute;
+    top: 0;
+    left: 12;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    color: #6c757d;
+}
+.quote cite p::before{
+    content: '\2014';
+    margin-right: .25rem;
+}
+
+.quote cite p{
+    margin: 0;
+    font-size: .875rem;
+    color: #6c757d;
+}
