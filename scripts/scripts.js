@@ -1,16 +1,16 @@
 import {
-  sampleRUM,
-  buildBlock,
-  loadHeader,
-  loadFooter,
-  decorateButtons,
-  decorateIcons,
-  decorateSections,
-  decorateBlocks,
-  decorateTemplateAndTheme,
-  waitForLCP,
-  loadBlocks,
-  loadCSS,
+  sampleRUM, // Measuring Real User Monitoring (RUM) performance metrics
+  buildBlock, // Builds and returns a block element based on provided data
+  loadHeader, // Loads and renders the header section of the page
+  loadFooter, // Loads and renders the footer section of the page
+  decorateButtons, // Applies styling or functionality to button elements
+  decorateIcons, // Applies styling or functionality to icon elements
+  decorateSections, // Applies styling or functionality to section elements
+  decorateBlocks, // Applies styling or functionality to block elements
+  decorateTemplateAndTheme, // Likely applies styling based on the current template and theme
+  waitForLCP, // Waits for the Largest Contentful Paint (LCP)
+  loadBlocks, // Loads and renders block elements on the page
+  loadCSS, // Loads and applies CSS styles
 } from './aem.js';
 
 const LCP_BLOCKS = []; // add your LCP blocks to the list
