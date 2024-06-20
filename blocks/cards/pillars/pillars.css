@@ -1,0 +1,25 @@
+.pillars-container {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between columns as needed */
+    padding: 0;
+    margin: 0;
+  }
+  .pillars-container{
+    border:5px solid red;
+  }
+  
+  .pillars-container .column {
+    flex: 1 1 calc(33.333% - 20px); /* Adjust to ensure 3 columns with gap */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust the gap between items inside each column as needed */
+  }
+  
+  .pillars-container .column picture,
+  .pillars-container .column h1,
+  .pillars-container .column p {
+    margin-bottom: 20px;
+  }
